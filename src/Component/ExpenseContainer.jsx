@@ -3,7 +3,7 @@ import Expenseform from './ExpenseForm.jsx';
 import History from './History.jsx';
 import BalanceContainer from './BalanceContainer.jsx';
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://expense-backend-twza.onrender.com';
 
 function ExpenseContainer() {
   const [expense, setExpense] = useState([]);
